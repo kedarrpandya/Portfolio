@@ -67,7 +67,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       {AboutImage.map((a) => {
-        <Img src={a.image} />;
+        return <Img src={a.image} />;
       })}
       <SectionText>
         I am Kedar Pandya. I'm currently a 4th year student of B. Tech.
