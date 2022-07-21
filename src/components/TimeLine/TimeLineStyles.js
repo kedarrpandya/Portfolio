@@ -161,9 +161,11 @@ export const CarouselButtonDot = styled.div`
   width: 3px;
   height: 3px;
 `;
-export const AboutImage = styled.img`
-  width: 30%;
-  height: 40%;
-  margin: auto;
-  border-radius: 4px;
+
+export const AboutI = styled.img`
+  width: 60%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+  align-items: center;
 `;

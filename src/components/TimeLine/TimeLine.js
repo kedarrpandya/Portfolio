@@ -9,8 +9,9 @@ import {
   CarouselItemText,
   CarouselItemTitle,
   CarouselMobileScrollNode,
+  AboutI,
 } from "./TimeLineStyles";
-import { Img } from "../Projects/ProjectsStyles";
+import { GridContainer } from "../Projects/ProjectsStyles";
 import {
   Section,
   SectionDivider,
@@ -66,13 +67,15 @@ const Timeline = () => {
   return (
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
-      {AboutImage.map((a) => {
-        return <Img src={a.image} />;
-      })}
-      <SectionText>
-        I am Kedar Pandya. I'm currently a 4th year student of B. Tech.
-        Information & Communication Technology at Ganpat University.
-      </SectionText>
+      <GridContainer>
+        {AboutImage.map((a) => {
+          return <AboutI src={a.image} />;
+        })}
+        <SectionText>
+          I am Kedar Pandya. I'm currently a 4th year student of B. Tech.
+          Information & Communication Technology at Ganpat University.
+        </SectionText>
+      </GridContainer>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
