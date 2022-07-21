@@ -38,6 +38,12 @@ export const projects = [
   },
 ];
 
+export const AboutImage = [
+  {
+    image: "../../../public/images/Hello.jpeg",
+  },
+];
+
 export const TimeLineData = [
   { year: 2019, text: "Started my journey" },
   {
