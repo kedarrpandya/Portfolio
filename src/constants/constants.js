@@ -40,7 +40,7 @@ export const projects = [
 
 export const AboutImage = [
   {
-    image: "../../../public/images/Hello.jpeg",
+    image: "/images/Me.png",
   },
 ];
 
