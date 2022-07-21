@@ -17,6 +17,15 @@ export const projects = [
     visit: "http://kedarpandya.pythonanywhere.com/store",
     id: 1,
   },
+  {
+    title: "Netflix-Clone",
+    description:
+      "Using ReactJs & Postman API I've created this beautiful Netflix-Clone. In this you cannot watch the wholw serirs but you can surely watch the respective trailer or the BTS of the particular series.",
+    image: "/images/3.png",
+    tags: ["ReactJs", "Postman API"],
+    visit: "https://netflix-clone-ad3bc.web.app",
+    id: 1,
+  },
 ];
 
 export const TimeLineData = [
