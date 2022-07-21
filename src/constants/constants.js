@@ -29,7 +29,7 @@ export const projects = [
   {
     title: "Data-Science - I",
     description:
-      "My very First Data-Science Project in which I basically did the data cleaning/Filteration/ETL of the given data using MySQL & Tableau. After that I also Visualised the data and created an attractive, Responsive Dashboard.",
+      "My very First Data-Science Project in which I basically did the data cleaning/Filteration/ETL of the given data using MySQL & Tableau. After that I also Visualised the data and created an attractive, Responsive & Interactive Dashboard.",
     image: "/images/4.png",
     tags: ["Tableau", "MySQL"],
     visit:
