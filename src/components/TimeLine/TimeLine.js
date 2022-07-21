@@ -67,7 +67,7 @@ const Timeline = () => {
   return (
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
-      <AboutImage src="./ Hello.jpg" />
+      <img src="/src/components/TimeLine/Hello.jpg" />
       <SectionText>
         I am Kedar Pandya. I'm currently a 4th year student of B. Tech.
         Information & Communication Technology at Ganpat University.
