@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  DiDatabase,
   DiDjango,
   DiFirebase,
   DiPython,
@@ -51,7 +52,19 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Databases
+            Databases, MySQL, Sanity
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <DiDatabase size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Data-Science</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            Tableau
           </ListParagraph>
         </ListContainer>
       </ListItem>
