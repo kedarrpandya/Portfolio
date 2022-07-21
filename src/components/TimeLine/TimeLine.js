@@ -10,6 +10,7 @@ import {
   CarouselItemText,
   CarouselItemTitle,
   CarouselMobileScrollNode,
+  AboutImage,
 } from "./TimeLineStyles";
 import {
   Section,
@@ -66,6 +67,7 @@ const Timeline = () => {
   return (
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
+      <AboutImage src="/Users/kedarpandya/Desktop/WEB-DEVELOPMENT/Portfolio/public/images/I:Me:Myself.jpg"></AboutImage>
       <SectionText>
         I am Kedar Pandya. I'm currently a 4th year student of B. Tech.
         Information & Communication Technology at Ganpat University.
