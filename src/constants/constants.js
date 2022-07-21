@@ -26,6 +26,16 @@ export const projects = [
     visit: "https://netflix-clone-ad3bc.web.app",
     id: 1,
   },
+  {
+    title: "Data-Science - I",
+    description:
+      "My very First Data-Science Project in which I basically did the data cleaning/Filteration/ETL of the given data using MySQL & Tableau. After that I also Visualised the data and created an attractive, Responsive Dashboard.",
+    image: "/images/4.png",
+    tags: ["Tableau", "MySQL"],
+    visit:
+      "https://public.tableau.com/app/profile/kedar.pandya/viz/Sample_Company_Sales_Insights/Final_Dashboard",
+    id: 1,
+  },
 ];
 
 export const TimeLineData = [
