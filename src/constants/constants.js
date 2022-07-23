@@ -53,3 +53,9 @@ export const TimeLineData = [
   { year: 2021, text: "Started Working on ReactJS" },
   { year: 2022, text: "Currently Working on ML & Data-Science" },
 ];
+
+export const ResumeImage = [
+  {
+    image: "/images/MyResume.png",
+  },
+];
