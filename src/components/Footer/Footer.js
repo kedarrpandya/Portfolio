@@ -17,6 +17,7 @@ import {
 const Footer = () => {
   return (
     <FooterWrapper>
+      <Slogan>Let's have a chat !</Slogan>
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
