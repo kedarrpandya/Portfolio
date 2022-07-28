@@ -13,11 +13,12 @@ import {
   SocialContainer,
   SocialIconsContainer,
 } from "./FooterStyles";
+import { SectionText } from "../../styles/GlobalComponents";
 
 const Footer = () => {
   return (
     <FooterWrapper>
-      <Slogan>Let's have a chat !</Slogan>
+      <SectionText>Let's have a chat !</SectionText>
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
