@@ -9,7 +9,7 @@ import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
 
 const data = [
   { number: 8, text: "Total Projects" },
-  { number: 9.12, text: "CGPA Upto 5th Sem" },
+  { number: 9.14, text: "CGPA Upto 6th Sem" },
 ];
 
 const Acomplishments = () => (
