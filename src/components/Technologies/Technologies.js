@@ -61,7 +61,7 @@ const Technologies = () => (
           <DiDatabase size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Data-Science</ListTitle>
+          <ListTitle>Data-Analysis</ListTitle>
           <ListParagraph>
             Experience with <br />
             Tableau
