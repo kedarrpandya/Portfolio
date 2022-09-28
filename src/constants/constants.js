@@ -27,9 +27,9 @@ export const projects = [
     id: 1,
   },
   {
-    title: "Data-Science - I",
+    title: "Analysis of Data using tableau",
     description:
-      "My very First Data-Science Project in which I basically did the data cleaning/Filteration/ETL of the given data using MySQL & Tableau. After that I also Visualised the data and created an attractive, Responsive & Interactive Dashboard.",
+      "My very Data analysis Project in which I basically did the data cleaning/Filteration/ETL of the given data using MySQL & Tableau. After that I also Visualised the data and created an attractive, Responsive & Interactive Dashboard.",
     image: "/images/4.png",
     tags: ["Tableau", "MySQL"],
     visit:
