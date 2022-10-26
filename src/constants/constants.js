@@ -27,6 +27,15 @@ export const projects = [
     id: 1,
   },
   {
+    title: "Spotify refreshed version",
+    description:
+      "This is a unique version of spotify or we can say any music platform. This has been made by using ReactJS & Rapid API with also use of Tailwind CSS framework. ",
+    image: "/images/5.png",
+    tags: ["ReactJs", "Rapid API"],
+    visit: "https://refreshed-spotify.netlify.app/",
+    id: 1,
+  },
+  {
     title: "Analysis of Data using tableau",
     description:
       "My very Data analysis Project in which I basically did the data cleaning/Filteration/ETL of the given data using MySQL & Tableau. After that I also Visualised the data and created an attractive, Responsive & Interactive Dashboard.",
