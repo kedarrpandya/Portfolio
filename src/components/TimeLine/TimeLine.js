@@ -72,8 +72,9 @@ const Timeline = () => {
           return <AboutI src={a.image} />;
         })}
         <SectionText>
-          I am Kedar Pandya. I'm currently a 4th year student of B. Tech.
-          Information & Communication Technology at Ganpat University.
+          I am Kedar Pandya. I have done my Bachelors of Technology in
+          Information and Communication Technology from Ganpat University,
+          Kherva, India
         </SectionText>
       </GridContainer>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
