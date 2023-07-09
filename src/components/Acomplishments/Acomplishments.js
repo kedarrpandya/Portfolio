@@ -12,7 +12,7 @@ const data = [
   { number: 9.14, text: "CGPA Upto 6th Sem" },
   {
     number: 4,
-    text: "Certificates from AWS and also a Level-2 and a Level-3 certificate of Apex One(An endpoint security product of Trend Micro) from Trend Micro ",
+    text: "Certificates from AWS and Trend Micro ",
   },
 ];
 
