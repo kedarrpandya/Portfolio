@@ -1,5 +1,4 @@
 import React, { useState, useRef, useEffect } from "react";
-
 import {
   CarouselButton,
   CarouselButtonDot,
@@ -10,15 +9,16 @@ import {
   CarouselItemText,
   CarouselItemTitle,
   CarouselMobileScrollNode,
-  AboutImage,
+  AboutI,
 } from "./TimeLineStyles";
+import { GridContainer } from "../Projects/ProjectsStyles";
 import {
   Section,
   SectionDivider,
   SectionText,
   SectionTitle,
 } from "../../styles/GlobalComponents";
-import { TimeLineData } from "../../constants/constants";
+import { TimeLineData, AboutImage } from "../../constants/constants";
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
@@ -67,11 +67,16 @@ const Timeline = () => {
   return (
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
-      <AboutImage src="/public/images/Hello.jpg" />
-      <SectionText>
-        I am Kedar Pandya. I'm currently a 4th year student of B. Tech.
-        Information & Communication Technology at Ganpat University.
-      </SectionText>
+      <GridContainer>
+        {AboutImage.map((a) => {
+          return <AboutI src={a.image} />;
+        })}
+        <SectionText>
+          I am Kedar Pandya. I have done my Bachelors of Technology in
+          Information and Communication Technology from Ganpat University,
+          Kherva, India
+        </SectionText>
+      </GridContainer>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
