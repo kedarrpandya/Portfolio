@@ -61,6 +61,14 @@ export const TimeLineData = [
   },
   { year: 2021, text: "Started Working on ReactJS" },
   { year: 2022, text: "Currently Working on ML & Data-Science" },
+  {
+    year: 2023,
+    text: "Started my internship in Trend Micro Inc., India (January 16th, 2023 - June 16th, 2023",
+  },
+  {
+    year: 2023,
+    text: "Currently working as a cybersecurity professional in Trend Micro Inc., India",
+  },
 ];
 
 export const ResumeImage = [
